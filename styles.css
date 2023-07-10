@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #336699;
+  }
+  
+  #fishContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .fish {
+    position: relative;
+  }
+  
+  .fish img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .fish p {
+    margin-top: 10px;
+  }
+  
+  #soldOutOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    pointer-events: none; /* Disable click events on the sold-out overlay */
+  }
+  
+  #resultContainer {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  #moneyDisplay {
+    font-weight: bold;
+  }
+  
+  #cartoonFish {
+    position: absolute;
+    width: 100px; /* Adjust the width to your desired size */
+    height: auto;
+    z-index: 2; /* Set a higher z-index to ensure it's positioned on top */
+    cursor: pointer;
+  }
+  
