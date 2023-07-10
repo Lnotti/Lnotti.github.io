@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let targetY = 0;
   let currentX = 0;
   let currentY = 0;
-  const stepSize = 2; // Adjust the step size as needed
+  const stepSize = 4; // Adjust the step size as needed
 
   function moveFish() {
     const deltaX = targetX - currentX;
