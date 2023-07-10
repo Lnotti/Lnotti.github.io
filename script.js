@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { name: "arrowana", price: 1400 },
     { name: "Discus", price: 125 },
     { name: "Dwarf chicilid", price: 120 },
-    { name: "Tobypufferfish", price: 55 },
+    { name: "TobyPufferfish", price: 55 },
     { name: "Beta", price: 35 },
     { name: "butterflyFish", price: 30 },
     { name: "oscar", price: 21 },
