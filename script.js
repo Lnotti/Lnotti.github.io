@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { name: "gourami", price: 10 }
   ];
 
-  let money = 500;
+  let money = 0;
 
   const fishContainer = document.getElementById('fishContainer');
   const resultContainer = document.getElementById('resultContainer');
